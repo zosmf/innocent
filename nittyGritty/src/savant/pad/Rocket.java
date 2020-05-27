@@ -38,4 +38,14 @@ public class Rocket
         
      }
 
+	
+	
+	
+	public static void MethodicalGreeting() 
+	{
+        System.out.println("Discourse on the Method");
+    }
+
+
+
 }
