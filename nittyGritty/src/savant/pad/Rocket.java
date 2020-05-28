@@ -1,5 +1,6 @@
 package savant.pad;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Rocket 
@@ -41,11 +42,24 @@ public class Rocket
 	
 	
 	
-	public static void MethodicalGreeting() 
+	public static void MethodicalGreeting(String lineFromTheBook) 
 	{
-        System.out.println("Discourse on the Method");
+        System.out.println("Discourse on the Method at line number --> " + lineFromTheBook);
     }
 
+	
+	public static double average(ArrayList<Integer> array) 
+	{
+
+		int sumofItAll = 0;
+		
+		for (int counter = 0; counter < array.size(); counter++) 
+			{
+					sumofItAll = array.get(counter) + sumofItAll; 		
+			}   		
+
+	    return sumofItAll;
+	}
 
 
 }
