@@ -57,6 +57,14 @@ public class Rocket
 
 	    return sumofItAll;
 	}
+	
+	public static void print(ArrayList<Integer> numbers) 
+		{
+	    		for (int number : numbers) 
+	    		{
+	    			System.out.println( number );
+	    		}
 
-
+	 }
+	
 }
