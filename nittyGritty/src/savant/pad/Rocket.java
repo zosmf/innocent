@@ -13,7 +13,7 @@ public class Rocket
         ArrayList<Integer> intList = new ArrayList<Integer>();
         
         // program code
-        System.out.println("We will average your inntegers ... for free and with 0 we will give too you:");
+        System.out.println("We will average your integers ... for free and with 0 we will give too you:");
         
         while (true) 
 		        {
