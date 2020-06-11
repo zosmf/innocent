@@ -55,7 +55,7 @@ public class Rocket
 					sumofItAll = array.get(counter) + sumofItAll; 		
 			}   		
 
-	    return sumofItAll;
+	    return sumofItAll/array.size();
 	}
 	
 	public static void print(ArrayList<Integer> numbers) 
