@@ -2,7 +2,7 @@ package savant.pad;
 
 import java.util.Date;
 
-public class Soloists 
+public class Beings 
 {
 
 	private String name;
