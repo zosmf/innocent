@@ -1,7 +1,5 @@
 package watch.my.beans;
 
-import java.util.Date;
-
 public class Account 
 {
 
@@ -21,7 +19,8 @@ public class Account
 
     public static void transfer(Account from, Account to, double amount)
 	{
-		
+			from.accountBalance 		= from.accountBalance - amount;
+			to.accountBalance 		= to.accountBalance + amount;
 		
 	}
     
@@ -31,11 +30,17 @@ public class Account
 		
 	}
     
-    public double get()
+    public double getBalance()
 	{
 			return this.accountBalance;
 		
 	}
+    
+    public String getHolderNAme()
+    {
+    			return this.accountHolderName;
+    }
+    
 
 
 }
