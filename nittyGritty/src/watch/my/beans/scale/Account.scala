@@ -7,10 +7,23 @@ class Account (accountHolderNameIn: String, accoutNumberIn: String)
     var accoutNumber             = accoutNumberIn
     var accountBalance: Double   = 0
     
-    def updateBalance(amount: Double) {
+    def updateBalance(amount: Double) 
+       {
       accountBalance = accountBalance + amount 
-   }
+       }
+    
+    
+   
 
 
+}
 
+object Account
+{
+    def transfer(from: Account,to: Account, amount: Double) 
+       {
+      from.accountBalance = from.accountBalance - amount
+      to.accountBalance = to.accountBalance + amount
+       }
+  
 }

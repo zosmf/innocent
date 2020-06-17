@@ -5,13 +5,15 @@ import watch.my.beans.scale._
 object fling {
   def main(args: Array[String]) 
   {
-      val A = new Account("Mister A","0000000A")
-      
-      A.updateBalance(100)
-      
-      println(A.accountHolderName)
-      println(A.accountBalance)
-      
+     val wedding = new Feast
+     
+     wedding.addMeal("Hamburger")
+     wedding.addMeal("Fish'n'Chips'")
+     wedding.addMeal("Sauerkraut")
+     
+     wedding.whatToFeastOn()
+     
+     wedding.addMeal("Hamburger")
   
   
   }
