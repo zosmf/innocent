@@ -7,23 +7,15 @@ public class PersonalRocket
 
 	public static void main(String[] args) 
 	{
-
-		Feast wedding = new Feast();
-		
-		System.out.println( wedding.addMeal("Hamburger") );
-		wedding.addMeal("Fish'n'Chips'");
-		wedding.addMeal("Sauerkraut");
-		
-		wedding.whatToFeastOn();
-		
-		System.out.println(wedding.addMeal("Hamburger"));
-		
-		wedding.whatToFeastOn();
-		
-		wedding.feastOut();
-		
-		wedding.whatToFeastOn();
-     }
+		GoFigures stats = new GoFigures();
+        stats.placeFigure(3);
+        stats.placeFigure(5);
+        stats.placeFigure(1);
+        stats.placeFigure(2);
+        System.out.println("Count: " + stats.getCountOfFigures());
+        System.out.println("Sum: " + stats.sumThemFigures());
+        System.out.println("Average: " + stats.smoothThemFigures());
+	}
 
 	
 	
